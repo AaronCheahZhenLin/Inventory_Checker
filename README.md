@@ -1,9 +1,10 @@
 # Inventory_Checker
 This is a script used to check AWS Resources.
 This script does the following:
-A)List all EC2 instances with their state, type, and tags
-B)Enumerate S3 buckets with size estimates
-C)Count Lambda functions and their runtimes
-D)Checks for any allocated or unused Elastic IPs
-E)Finds all EBS attached/unattached volumes with their sizes, creation time and current state
-F)Export to CSV/JSON with timestamp
+
+1. List all EC2 instances with their state, type, and tags
+2. Enumerate S3 buckets with size estimates
+3. Count Lambda functions and their runtimes
+4. Checks for any allocated or unused Elastic IPs
+5. Finds all EBS attached/unattached volumes with their sizes, creation time and current state
+6. Export to CSV/JSON with timestamp
